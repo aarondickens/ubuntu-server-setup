@@ -5,3 +5,4 @@ source "$SCRIPT_DIR/version.sh"
 source "$SCRIPT_DIR/scripts/common.sh"
 
 source "$SCRIPT_DIR/scripts/install_mise.sh"
+source "$SCRIPT_DIR/scripts/install_git.sh"
