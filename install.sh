@@ -1,8 +1,8 @@
 #!/bin/bash
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-source "$SCRIPT_DIR/version.sh"
-source "$SCRIPT_DIR/scripts/common.sh"
+. "$SCRIPT_DIR/version.sh"
+. "$SCRIPT_DIR/scripts/common.sh"
 
-source "$SCRIPT_DIR/scripts/install_mise.sh"
-source "$SCRIPT_DIR/scripts/install_git.sh"
+. "$SCRIPT_DIR/scripts/install_mise.sh"
+. "$SCRIPT_DIR/scripts/install_git.sh"
